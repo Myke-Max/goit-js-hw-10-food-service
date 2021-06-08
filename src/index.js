@@ -32,12 +32,13 @@ themeBtnRef.addEventListener('change',function (e) {
 })
 
 const currentTheme = localStorage.getItem('Theme', Theme.LIGHT);
+
 if (currentTheme === Theme.DARK) {
-    themeBtnRef.cheked = 'true'
+    themeBtnRef.checked = 'true'
     bodyRef.classList.add(Theme.DARK)
 }
 else {
-    themeBtnRef.cheked = 'false'
+    themeBtnRef.checked = 'false'
     bodyRef.classList.add(Theme.LIGHT)
 }
 
