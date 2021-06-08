@@ -1,6 +1,6 @@
-import menu from './src/menu.json'
-import cards from './src/templates/cards.hbs';
-import './src/sass/main.scss';
+import menu from './menu.json'
+import cards from './templates/cards.hbs';
+import './sass/main.scss';
 
 const Theme = {
   LIGHT: 'light-theme',
