@@ -34,11 +34,11 @@ themeBtnRef.addEventListener('change',function (e) {
 const currentTheme = localStorage.getItem('Theme');
 
 if (currentTheme === Theme.DARK) {
-    themeBtnRef.checked = 'true'
+    themeBtnRef.checked = true
     bodyRef.classList.add(Theme.DARK)
 }
 else {
-    themeBtnRef.checked = 'false'
+    themeBtnRef.checked = false
     bodyRef.classList.add(Theme.LIGHT)
 }
 
